@@ -9,7 +9,5 @@ module.exports = app => {
     // Retrieve all buchungen
     router.get("/", buchung.findAll);
 
-    router.get("/join", buchung.findJOIN);
-
     app.use('/api/buchung', router);
 };
