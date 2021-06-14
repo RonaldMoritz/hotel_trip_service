@@ -9,5 +9,8 @@ module.exports = app => {
     // Retrieve all buchungen
     router.get("/", buchung.findAll);
 
+    // Delete buchung
+    router.delete("/:booking_id", buchung.delete);
+
     app.use('/api/buchung', router);
 };
