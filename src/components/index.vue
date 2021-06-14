@@ -1,7 +1,6 @@
 <template>
   <div class="page-heading-container">
     <h2 class="sub-heading page-heading">Hotel Trip Service</h2>
-    <h3 class="sub-heading page-desc">Verwalten Sie Gesundheitseinrichtungen in Österreich!</h3>
   </div>
 
 
