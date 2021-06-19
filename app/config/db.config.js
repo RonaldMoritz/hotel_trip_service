@@ -14,7 +14,7 @@ module.exports = {
 };
 */
 
-// Verbindung zu Azure Cloud Datenbank
+// Azure Cloud Datenbank
 module.exports = {
     HOST: "hotel-trip-service-server.mariadb.database.azure.com",
     USER: "RonaldMoritz@hotel-trip-service-server",
