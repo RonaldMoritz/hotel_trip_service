@@ -41,7 +41,7 @@ exports.findAll = (req, res) => {
     });
 };
 
-exports.findJOIN = (req, res) => {
+exports.delete = (req, res) => {
     Buchung.getJOIN((err, data) => {
         if (err)
             res.status(500).send({
