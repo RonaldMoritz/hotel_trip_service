@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: "http://localhost:8083/api",
+    baseURL: "https://hoteltripservice.azurewebsites.net/api",
     headers: {
         "Content-type": "application/json"
     }
